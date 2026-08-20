@@ -210,12 +210,10 @@
 ```c
 #define MOUNT_AHCI 0
 #define MOUNT_NVME 1
+#define MOUNT_USB 2
 ```
 
-返回值：
-
-- 成功时无显式返回值
-- `device_type` 非法时，`r10 = u64::MAX`
+返回值（`r10`）：成功为 `0`，`device_type` 非法或设备/分区不存在时为 `u64::MAX`
 
 当前挂载逻辑使用 FAT 文件系统。
 
