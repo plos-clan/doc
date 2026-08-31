@@ -112,7 +112,7 @@ features:
 	  },
     {
 	    avatar: '/pain.jpg',
-	    name: 'Zeng Zhenjia',
+	    name: 'UEFIer',
 	    title: 'Member',
 	    links: [
 	      { icon: 'github', link: 'https://github.com/zzjrabbit' }
